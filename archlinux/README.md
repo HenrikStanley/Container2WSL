@@ -66,6 +66,13 @@ You can validate that your new distribution has been successfully imported by ru
 wsl -l -v
 ```
 
+To use this as your default WSL distribution:
+
+```sh
+# Set default WSL distribution.
+wsl --set-default ArchLinux
+```
+
 ### Post installation cleanup in Windows
 
 Unless you want to keep the .tar file to re-install the exact same build at a later date, you can safely remove the .tar file as it is no longer needed.
