@@ -46,7 +46,7 @@ You must decide where on your system to store these.
 I have created a folder called wsl in the root of my C: drive `C:\wsl` where I keep mine. You can do whatever path makes sense for your system.
 If you run multiple distributions they need separate subfolders like:
 
-* `C:\wsl\archlinux`
+* `C:\wsl\arch`
 * `C:\wsl\ubuntu`
 * `C:\wsl\debian`
 
