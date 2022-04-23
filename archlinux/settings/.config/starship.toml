@@ -1,0 +1,12 @@
+[kubernetes]
+symbol = "⛵ "
+#style = "dim green"
+disabled = false
+
+[cmd_duration]
+style="fg:#88C0D0"
+
+[env_var]
+variable="STARSHIP_SHELL"
+default="pwsh"
+style="fg:#88C0D0"

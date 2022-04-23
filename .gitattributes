@@ -1,0 +1,5 @@
+# Ensure files copied into Linux container keeps lf file endings
+*.sh    text eol=lf
+*.zsh   text eol=lf
+*.zshrc text eol=lf
+*.toml  text eol=lf
