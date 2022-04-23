@@ -53,10 +53,10 @@ After setting up your folders for the distribution, we can now import it:
 
 ```sh
 # Move the .tar file with your distribution to the WSL folder.
-mv .\arch-container.tar C:\wsl\distro\arch-container.tar
+mv .\arch-container.tar C:\wsl\arch\arch-container.tar
 
 # Import the distribution into WSL
-wsl --import ArchLinux C:\wsl\distro C:\wsl\distro\arch-container.tar
+wsl --import ArchLinux C:\wsl\arch C:\wsl\arch\arch-container.tar
 ```
 
 You can validate that your new distribution has been successfully imported by running:  
@@ -71,7 +71,7 @@ wsl -l -v
 Unless you want to keep the .tar file to re-install the exact same build at a later date, you can safely remove the .tar file as it is no longer needed.
 ```sh
 # Move the .tar file with your distribution to the WSL folder.
-rm C:\wsl\distro\arch-container.tar
+rm C:\wsl\arch\arch-container.tar
 ```
 
 ### Post installation cleanup in Linux Distribution
